@@ -1,0 +1,78 @@
+/* fonts */
+@font-face {
+    font-family: Font1;
+    src: url(Fonts/Longevity-w1nY8.ttf);
+}
+@font-face {
+    font-family: Font2;
+    src: url(Fonts/NatureBeautyPersonalUse-9Y2DK.ttf);
+}
+@font-face {
+    font-family: Queens;
+    src: url(Fonts/Queensides-3z7Ey.ttf);
+}
+@font-face {
+    font-family: Happy;
+    src: url(Fonts/HappyLucky-gxnZP.ttf);
+}
+/* Home-page design */
+/* Background design setting */
+body.Home-page {
+    background-image: url(Backgrounds/Home-page-background.jpg);
+    scroll-behavior: smooth;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.Logo {
+    font-family: Queens;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 40px;
+}
+.Button2 {
+    position: absolute;
+    right: 40px;
+    top: 35px;
+
+    height: 30px;
+    width: 100px;  
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: white;
+}
+.Button1 {
+    position: absolute;
+    right: 150px;
+    top: 35px;
+
+    height: 30px;
+    width: 100px;  
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: white;
+}
+.Box {
+    height: 400px;
+    width: 1030px;
+    background-image: url();
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 20px 5px white;
+    opacity: 60%;
+    border-radius: 1rem;
+}
+.Box2 {
+    height: 400px;
+    width: 340px;
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    background-color: white;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
